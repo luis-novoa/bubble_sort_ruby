@@ -13,3 +13,5 @@ def run(array)
 end
 
 puts run([2, 1, 4, 6, 8, 0, 10])
+
+      
