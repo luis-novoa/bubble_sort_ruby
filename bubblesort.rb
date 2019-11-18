@@ -13,4 +13,4 @@ def bubblesort(array)
   return result
 end
 
-puts bubblesort([2, 1, 4, 6, 8, 0, 10])
+puts bubblesort([3, 7, 5, 99, 65, 1, -1, 1000, 4])
