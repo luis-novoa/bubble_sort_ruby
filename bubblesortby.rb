@@ -14,9 +14,11 @@ def bubblesort_by(array)
     end
     break if swap.zero?
   end
-  puts result
+  result
 end
 
-bubblesort_by(%w[hi hello hey]) do |left, right|
+bubble_result = bubblesort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
+
+puts bubble_result
